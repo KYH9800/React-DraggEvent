@@ -1,0 +1,26 @@
+html,
+body {
+  background-color: rgb(236, 236, 236);
+
+  margin: auto;
+}
+
+.explanation {
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  /* display: block; */
+}
+
+.iamge {
+  cursor: pointer;
+  user-select: none;
+
+  margin: 1px 3px;
+  object-fit: cover;
+
+  height: 250px;
+  width: 250px;
+}
